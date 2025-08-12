@@ -1,7 +1,7 @@
-from fastapi import FastApi
+from fastapi import FastAPI
 
-app = FastApi()
+app = FastAPI()
 
 @app.get("/")
 def read_root():
-    return {"message":"Hello from github Actions!"}
+    return {"message": "Hello from GitHub Actions!"}
